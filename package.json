@@ -1,0 +1,22 @@
+{
+  "name": "mithril-ts-template",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "mithril": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/mithril": "^2.0.5",
+    "serve": "^11.3.2",
+    "ts-loader": "^8.0.7",
+    "typescript": "^4.0.3",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0"
+  },
+  "scripts": {
+    "watch": "webpack -w --mode development",
+    "serve": "serve -s public",
+    "clean": "rm -rf public/build",
+    "build": "webpack --mode production"
+  }
+}
